@@ -1,0 +1,47 @@
+/* Variables used for turning border on/off, set to 0 to turn off */
+:root {
+    --bOn: 1px solid;
+    --b1: blue;
+    --b2: red;
+    --b3: green;
+    --b4: black;
+    --b5: purple;
+    --b6: cyan;
+}
+
+.container {
+    border: var(--bOn ) var(--b1);
+}
+
+.row {
+    border: var(--bOn ) var(--b2);
+}
+
+.col {
+    border: var(--bOn ) var(--b3);
+}
+
+#first-container {
+    border: var(--bOn ) var(--b5);  
+}
+
+#firstA {
+    border: var(--bOn ) var(--b6);  
+    padding: 15px;
+    background-color: pink;
+    margin-top: 5px;
+}
+
+#firstB {
+    border: var(--bOn ) var(--b6);  
+    padding: 15px;
+    background-color: var(--b1);
+    margin-top: 5px;
+}
+
+#firstC {
+    border: var(--bOn ) var(--b6);  
+    padding: 15px;
+    background-color: var(--b2);
+    margin-top: 5px;
+}
